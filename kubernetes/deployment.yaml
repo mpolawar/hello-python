@@ -34,7 +34,7 @@ spec:
         app: hello-py
     spec:
       containers:
-      - image: "rbroker/hello-py:{{image_tag}}"
+      - image: "mpolawar/hello-py:{{image_tag}}"
         name: hello-py
         ports:
           - containerPort: 5000
