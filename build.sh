@@ -27,7 +27,7 @@ else
   chmod +x xl
   #./xl apply --xl-deploy-url=$XLD_URL --xl-deploy-username=$XLD_USER --xl-deploy-password=$XLD_PASSWD --file dai-deploy/hello-python-deploy.yaml --values version=$TAG
   #./xl apply --xl-release-url=$XLR_URL --xl-release-username=$XLD_USER --xl-release-password=$XLD_PASSWD -d --file dai-deploy/start-release.yaml
-  echo "./xl version"
+  echo `./xl version`
   rm xl
 fi
 #rm x.yaml
