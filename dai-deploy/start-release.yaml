@@ -2,4 +2,4 @@ apiVersion: xl-release/v1
 kind: Release
 spec:
   name: Start Hello Pytho Release
-  template: Paycom/hello-python
+  template: Paycom/TestHello.py
