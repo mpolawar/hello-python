@@ -10,9 +10,6 @@ spec:
     deployables:
     - name: hello-py-deploy.yaml
       type: k8s.ResourcesFile
-      placeholders:
-      - image_tag
-      - ingress_host
       fileEncodings:
         ".+\\.properties": ISO-8859-1
       mergePatchType: strategic
