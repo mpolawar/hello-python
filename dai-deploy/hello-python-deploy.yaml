@@ -24,4 +24,4 @@ spec:
       displayResourceOnLogs: "false"
       showContainerLogs: "false"
       bytesToReadFromContainerLogs: "4000"
-      file: !file "../kubernetes/deployment.yaml"
+      file: !file "../kubernetes/deployment1.yaml"
