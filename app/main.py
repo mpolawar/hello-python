@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello it's mpolawar branch1 to test Initial final test ingress to fail with 5 min sleep"
+    return "Hello it's XLR/XLD deployment test"
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
