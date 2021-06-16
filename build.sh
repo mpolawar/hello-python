@@ -28,7 +28,7 @@ else
   echo "xlr url ${XLR_URL} xlr user is ${XLD_USER}, xlr password is ${XLD_PASSWD}"
   echo "xld url ${XLD_URL} xld user is ${XLD_USER}, xld password is ${XLD_PASSWD}"
   echo `env`
-  #./xl apply --xl-deploy-url=$XLD_URL --xl-deploy-username=$XLD_USER --xl-deploy-password=$XLD_PASSWD --file dai-deploy/hello-python-deploy.yaml --values version=$TAG
+  ./xl apply --xl-deploy-url=$XLD_URL --xl-deploy-username=$XLD_USER --xl-deploy-password=$XLD_PASSWD --file dai-deploy/hello-python-deploy.yaml --values version=$TAG
   ./xl apply --xl-release-url=$XLR_URL --xl-release-username=$XLD_USER --xl-release-password=$XLD_PASSWD -d --file dai-deploy/start-release.yaml
   echo `./xl version`
   rm xl
