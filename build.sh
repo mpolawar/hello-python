@@ -17,7 +17,7 @@ docker build -t ${IMAGE} -f Dockerfile .
 docker login --username $DOCKER_USER --password $DOCKER_PASSWORD docker.io
 echo "docker push ${IMAGE}"
 docker push ${IMAGE}
-sed "s/{{image_tag}}/${TAG}/g" kubernetes/deployment.yaml > kubernetes/hello-python.yaml
+sed "s/{{image_tag}}/${TAG}/g" kubernetes/deployment1.yaml > kubernetes/hello-python.yaml
 
 if [ -z "${GET_LOCAL}" ]
 then
