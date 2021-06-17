@@ -21,4 +21,4 @@ spec:
       displayResourceOnLogs: "false"
       showContainerLogs: "false"
       bytesToReadFromContainerLogs: "4000"
-      file: !file "../kubernetes/deployment1.yaml"
+      file: !file "../kubernetes/hello-python.yaml"
