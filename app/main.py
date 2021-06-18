@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello it's XLR/XLD/K8 deployment test for version 3.0.0"
+    return "Hello it's XLR/XLD/K8 deployment test for version 4.0.0"
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
