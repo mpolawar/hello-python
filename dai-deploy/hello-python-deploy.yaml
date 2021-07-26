@@ -5,7 +5,7 @@ spec:
 - name: Applications/digital_ai/Testapp
   type: udm.Application
   children:
-  - name: !format Applications/digitial_ai/Testapp/%version%
+  - name: !format Applications/digital_ai/Testapp/%version%
     type: udm.DeploymentPackage
     deployables:
     - name: hello-py-deploy.yaml
